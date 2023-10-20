@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>DBank</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link type="text/css" rel="stylesheet" href="main.css" />
+  <link rel="shortcut icon" href="bank.png" type="image/png">
+</head>
+
+<body>
+  <div class="container">
+    <lord-icon src="https://cdn.lordicon.com/jtiihjyw.json" trigger="in" delay="1500" state="in-reveal"
+      style="width:150px;height:150px">
+    </lord-icon>
+    <h1>Current Balance: $<span id="value">234</span></h1>
+    <div class="divider"></div>
+    <form action="#">
+      <h2>Amount to Top Up</h2>
+      <input id="input-amount" type="number" step="0.01" min=0 name="topUp" value="" />
+      <h2>Amount to Withdraw</h2>
+      <input id="withdrawal-amount" type="number" name="withdraw" step="0.01" min=0 value="" />
+      <input id="submit-btn" type="submit" value="Finalise Transaction" />
+    </form>
+  </div>
+  <h1 class="bank-name">DBank 🏦</h1>
+  <script src="https://cdn.lordicon.com/lordicon-1.1.0.js"></script>
+</body>
+
+
+</html>
